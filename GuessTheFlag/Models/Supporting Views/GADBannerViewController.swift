@@ -11,6 +11,7 @@ import GoogleMobileAds
 
 
 
+///Ad banner
 final class GADBannerViewController: UIViewControllerRepresentable  {
 
 

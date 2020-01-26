@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+///shake effect
 struct Shake: GeometryEffect {
     var amount: CGFloat = 10
     var shakesPerUnit = 3

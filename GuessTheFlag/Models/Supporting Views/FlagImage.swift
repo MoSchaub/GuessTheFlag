@@ -7,20 +7,21 @@
 
 import SwiftUI
 
+///roundedRectangle of a Flag whose name you hand in
 struct FlagImage: View {
 
-    @Binding var name: String
+    ///prpoerty that stores the name of the country whose flag is displayed
+    @Binding var flagName: String
     
     var body: some View {
-        Image(name)
+        Image(flagName)
             .renderingMode(.original)
             .clipShape(RoundedRectangle(cornerRadius: CGFloat(integerLiteral: 15)))
-            .shadow(color: .black, radius: 2)
     }
 }
 
 struct FlagImage_Previews: PreviewProvider {
     static var previews: some View {
-        FlagImage(name: .constant("Germany"))
+        FlagImage(flagName: .constant("Germany"))
     }
 }

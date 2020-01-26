@@ -79,7 +79,6 @@
 			children = (
 				CD28C78823DD9E60007595CC /* GameData.swift */,
 				CD1CC44123DDAEC800562596 /* Supporting Views */,
-				CD28C78F23DDA0B8007595CC /* ContentView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,6 +106,7 @@
 			children = (
 				CD845ED023A57EBF002F5407 /* AppDelegate.swift */,
 				CD845ED223A57EBF002F5407 /* SceneDelegate.swift */,
+				CD28C78F23DDA0B8007595CC /* ContentView.swift */,
 				CD28C78C23DD9EE5007595CC /* Models */,
 				CD845ED623A57EBF002F5407 /* Assets.xcassets */,
 				CD845EDB23A57EBF002F5407 /* LaunchScreen.storyboard */,
