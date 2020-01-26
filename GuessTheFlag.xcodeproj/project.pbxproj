@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		89990D926AE5266B4692941B /* Pods_GuessTheFlag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FBCCA55CBFC770F7F9CA5A /* Pods_GuessTheFlag.framework */; };
+		CD1CC44523DDAFBD00562596 /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CC44423DDAFBD00562596 /* FlagImage.swift */; };
 		CD28C78923DD9E60007595CC /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD28C78823DD9E60007595CC /* GameData.swift */; };
 		CD28C78B23DD9EC5007595CC /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD28C78A23DD9EC5007595CC /* Shake.swift */; };
-		CD28C78E23DD9F5F007595CC /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD28C78D23DD9F5F007595CC /* FlagImage.swift */; };
 		CD28C79023DDA0B8007595CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD28C78F23DDA0B8007595CC /* ContentView.swift */; };
 		CD845ED123A57EBF002F5407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD845ED023A57EBF002F5407 /* AppDelegate.swift */; };
 		CD845ED323A57EBF002F5407 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD845ED223A57EBF002F5407 /* SceneDelegate.swift */; };
@@ -24,9 +24,9 @@
 		669E997B769C9B84130A403F /* Pods-GuessTheFlag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheFlag.debug.xcconfig"; path = "Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag.debug.xcconfig"; sourceTree = "<group>"; };
 		66FBCCA55CBFC770F7F9CA5A /* Pods_GuessTheFlag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheFlag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CB0C6EDA4FF97C5AACCFA2 /* Pods-GuessTheFlag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheFlag.release.xcconfig"; path = "Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag.release.xcconfig"; sourceTree = "<group>"; };
+		CD1CC44423DDAFBD00562596 /* FlagImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
 		CD28C78823DD9E60007595CC /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 		CD28C78A23DD9EC5007595CC /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
-		CD28C78D23DD9F5F007595CC /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlagImage.swift; path = /Users/moritzschaub/Documents/100DaysswiftUi/GuessTheFlag/GuessTheFlag/Models/FlagImage.swift; sourceTree = "<absolute>"; };
 		CD28C78F23DDA0B8007595CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD845ECD23A57EBF002F5407 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD845ED023A57EBF002F5407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 			children = (
 				CD9CBC8523DCC06F006DFDFF /* GADBannerViewController.swift */,
 				CD28C78A23DD9EC5007595CC /* Shake.swift */,
-				CD28C78D23DD9F5F007595CC /* FlagImage.swift */,
+				CD1CC44423DDAFBD00562596 /* FlagImage.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 				CD9CBC8623DCC06F006DFDFF /* GADBannerViewController.swift in Sources */,
 				CD28C78923DD9E60007595CC /* GameData.swift in Sources */,
 				CD845ED123A57EBF002F5407 /* AppDelegate.swift in Sources */,
-				CD28C78E23DD9F5F007595CC /* FlagImage.swift in Sources */,
+				CD1CC44523DDAFBD00562596 /* FlagImage.swift in Sources */,
 				CD28C79023DDA0B8007595CC /* ContentView.swift in Sources */,
 				CD28C78B23DD9EC5007595CC /* Shake.swift in Sources */,
 				CD845ED323A57EBF002F5407 /* SceneDelegate.swift in Sources */,
