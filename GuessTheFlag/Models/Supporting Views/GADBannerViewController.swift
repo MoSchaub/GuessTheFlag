@@ -33,12 +33,6 @@ final class GADBannerViewController: UIViewControllerRepresentable  {
 
 }
 
-
-
-
-
-
-
 extension UIViewController: GADBannerViewDelegate {
     public func adViewDidReceiveAd(_ bannerView: GADBannerView) {
         print("ad received")
