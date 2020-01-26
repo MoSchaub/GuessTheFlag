@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89990D926AE5266B4692941B /* Pods_GuessTheFlag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FBCCA55CBFC770F7F9CA5A /* Pods_GuessTheFlag.framework */; };
 		CD295D4A23A689E000616374 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD295D4923A689E000616374 /* Example.swift */; };
 		CD845ED123A57EBF002F5407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD845ED023A57EBF002F5407 /* AppDelegate.swift */; };
 		CD845ED323A57EBF002F5407 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD845ED223A57EBF002F5407 /* SceneDelegate.swift */; };
@@ -14,9 +15,13 @@
 		CD845ED723A57EBF002F5407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD845ED623A57EBF002F5407 /* Assets.xcassets */; };
 		CD845EDA23A57EBF002F5407 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD845ED923A57EBF002F5407 /* Preview Assets.xcassets */; };
 		CD845EDD23A57EBF002F5407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD845EDB23A57EBF002F5407 /* LaunchScreen.storyboard */; };
+		CD9CBC8623DCC06F006DFDFF /* GADBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9CBC8523DCC06F006DFDFF /* GADBannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		669E997B769C9B84130A403F /* Pods-GuessTheFlag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheFlag.debug.xcconfig"; path = "Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag.debug.xcconfig"; sourceTree = "<group>"; };
+		66FBCCA55CBFC770F7F9CA5A /* Pods_GuessTheFlag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheFlag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CB0C6EDA4FF97C5AACCFA2 /* Pods-GuessTheFlag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheFlag.release.xcconfig"; path = "Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag.release.xcconfig"; sourceTree = "<group>"; };
 		CD295D4923A689E000616374 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		CD845ECD23A57EBF002F5407 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD845ED023A57EBF002F5407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,12 @@
 		CD845ED923A57EBF002F5407 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD845EDC23A57EBF002F5407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD845EDE23A57EBF002F5407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9CBC8523DCC06F006DFDFF /* GADBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GADBannerViewController.swift; sourceTree = "<group>"; };
+		CD9CBC8823DCC0C7006DFDFF /* GoogleMobileAdsSdkiOS-7.53.1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "GoogleMobileAdsSdkiOS-7.53.1"; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1"; sourceTree = "<group>"; };
+		CD9CBC8923DCC0E1006DFDFF /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		CD9CBC8A23DCC0E1006DFDFF /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/GoogleUtilities.framework"; sourceTree = "<group>"; };
+		CD9CBC8B23DCC0E1006DFDFF /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/nanopb.framework"; sourceTree = "<group>"; };
+		CD9CBC8C23DCC0E1006DFDFF /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/GoogleAppMeasurement.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +44,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89990D926AE5266B4692941B /* Pods_GuessTheFlag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		741424E316FDF37043A33A72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				669E997B769C9B84130A403F /* Pods-GuessTheFlag.debug.xcconfig */,
+				A8CB0C6EDA4FF97C5AACCFA2 /* Pods-GuessTheFlag.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD845EC423A57EBF002F5407 = {
 			isa = PBXGroup;
 			children = (
 				CD845ECF23A57EBF002F5407 /* GuessTheFlag */,
 				CD845ECE23A57EBF002F5407 /* Products */,
+				CD9CBC8723DCC0C7006DFDFF /* Frameworks */,
+				741424E316FDF37043A33A72 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +81,7 @@
 		CD845ECF23A57EBF002F5407 /* GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
+				CD9CBC8523DCC06F006DFDFF /* GADBannerViewController.swift */,
 				CD845ED023A57EBF002F5407 /* AppDelegate.swift */,
 				CD845ED223A57EBF002F5407 /* SceneDelegate.swift */,
 				CD845ED423A57EBF002F5407 /* ContentView.swift */,
@@ -78,6 +102,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CD9CBC8723DCC0C7006DFDFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD9CBC8C23DCC0E1006DFDFF /* GoogleAppMeasurement.framework */,
+				CD9CBC8923DCC0E1006DFDFF /* GoogleMobileAds.framework */,
+				CD9CBC8A23DCC0E1006DFDFF /* GoogleUtilities.framework */,
+				CD9CBC8B23DCC0E1006DFDFF /* nanopb.framework */,
+				CD9CBC8823DCC0C7006DFDFF /* GoogleMobileAdsSdkiOS-7.53.1 */,
+				66FBCCA55CBFC770F7F9CA5A /* Pods_GuessTheFlag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD845EE123A57EBF002F5407 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
 			buildPhases = (
+				F3C1708B7A66829439BFF537 /* [CP] Check Pods Manifest.lock */,
 				CD845EC923A57EBF002F5407 /* Sources */,
 				CD845ECA23A57EBF002F5407 /* Frameworks */,
 				CD845ECB23A57EBF002F5407 /* Resources */,
+				B0C3A9B42CCE8916C2F2246F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,11 +183,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B0C3A9B42CCE8916C2F2246F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuessTheFlag/Pods-GuessTheFlag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C1708B7A66829439BFF537 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessTheFlag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD845EC923A57EBF002F5407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9CBC8623DCC06F006DFDFF /* GADBannerViewController.swift in Sources */,
 				CD295D4A23A689E000616374 /* Example.swift in Sources */,
 				CD845ED123A57EBF002F5407 /* AppDelegate.swift in Sources */,
 				CD845ED323A57EBF002F5407 /* SceneDelegate.swift in Sources */,
@@ -224,6 +306,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -277,6 +360,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -286,6 +370,7 @@
 		};
 		CD845EE223A57EBF002F5407 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669E997B769C9B84130A403F /* Pods-GuessTheFlag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,15 +382,18 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moritzschaub.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CD845EE323A57EBF002F5407 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CB0C6EDA4FF97C5AACCFA2 /* Pods-GuessTheFlag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,10 +405,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moritzschaub.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
